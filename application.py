@@ -4,8 +4,8 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # Settings
 # ---------------------------------------------------------------------------
-API_URL = "https://api.x.ai/v1/chat/completions"  # official xAI endpoint
-MODEL = "grok-4.3"  # if xAI retires this model, change it (see readme_help.md)
+API_URL = "https://api.groq.com/openai/v1/chat/completions"  # official xAI endpoint
+MODEL = "openai/gpt-oss-120b"  # if xAI retires this model, change it (see readme_help.md)
 REQUEST_TIMEOUT = 120  # seconds (the model may "think" for a while)
 MAX_HEALTH_TEXT = 500  # limit the length of the health text box
 
