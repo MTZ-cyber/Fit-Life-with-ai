@@ -130,6 +130,7 @@ def main():
     st.set_page_config(page_title="FitLife AI", page_icon="💪")
 
     st.title("💪 FitLife AI")
+    st.write("Secret names found:", list(st.secrets.keys()))
     st.write("Answer three quick questions to get safe, simple ideas for "
              "exercise, sports or games, and healthy food.")
     st.warning(DISCLAIMER)
